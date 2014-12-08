@@ -60,7 +60,7 @@ footer {
 }
 
 .home h1 {
-  margin: 100px 0 50px 0;
+  margin: 110px 0 50px 0;
 }
 
 .home h1 img {
@@ -82,4 +82,35 @@ footer {
 
 #app-store:hover img {
   opacity: .8;
+}
+
+@media (max-width: 960px) {
+
+  .holder { width: 700px; }
+  
+  .description {
+    width: 80%;
+  }
+  
+}
+
+@media (max-width: 686px) {
+
+  .holder {
+    width: 90%;
+    padding: 0 5%;
+  }
+  
+  .home h1 img {
+    width: 250px;
+  }
+  
+  .description {
+    width: 100%;
+  }
+  
+  #app-store img {
+    width: 140px;
+  }
+  
 }
