@@ -73,3 +73,13 @@ footer {
   font-size: 18px;
   margin: 0 auto;
 }
+
+#app-store img {
+  outline: none;
+  width: 200px;
+  margin-top: 35px;
+}
+
+#app-store:hover img {
+  opacity: .8;
+}
